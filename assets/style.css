@@ -6,12 +6,12 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
 }
 
 header {
   height: 90px;
   background-color: #2c3e50;
+  color: white;
 }
 
 li {
@@ -24,8 +24,58 @@ a {
   color: white;
 }
 
+img{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 0, 75);
+  border-radius: 100%;
+}
+
+.sc-container{
+  width:1140px ;
+  margin: 0 auto;
+}
+
+.sc-jumbotron{
+  background-color:#1abc9c ;
+  height: 400px;
+  text-align: center;
+  color: white;
+}
+
+.sc-card{
+  background-color: blanchedalmond;
+  height: 200px;
+  max-width: 100%;
+  border-radius: 25px;
+  margin: 20px 10px;
+}
+
+#about{
+  background-color:#1abc9c ;
+}
+
+#contact span{
+  display: block;
+}
+
+.btn{
+  text-align: center;
+}
+
+footer .top{
+  background-color:#3a546d ;
+  height: 250px;
+}
+
+footer .bottom{
+  background-color:#2c3e50 ;
+  height: 200px;
+}
+
+
+/* UTILITIES */
 .debug {
   background-color: rgba(127, 255, 212, 0.384);
   border: 1px solid black;
-  min-height: 90px;
 }
