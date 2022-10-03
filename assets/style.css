@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,10 @@ header {
   height: 90px;
   background-color: #2c3e50;
   color: white;
+}
+
+h2{
+  text-align: center;
 }
 
 li {
@@ -35,12 +40,26 @@ footer{
   color: white;
 }
 
+/* UTILITIES */
+.debug {
+  background-color: rgba(61, 0, 97, 0.384);
+  border: 1px solid black;
+  height: 50px;
+}
+
+/* BUTTON */
+.btn{
+  text-align: center;
+}
+
+/* CONTAINER CUSTOM */
 .sc-container{
   max-width:1140px ;
   margin: 0 auto;
   height: 100%;
 }
 
+/* JUMBOTRON */
 .sc-jumbotron{
   background-color:#1abc9c ;
   height: 400px;
@@ -48,40 +67,39 @@ footer{
   color: white;
 }
 
+/* MAIN */
+/* PORTFOLIO */
 .sc-card{
   background-color: blanchedalmond;
   height: 200px;
   max-width: 100%;
   border-radius: 25px;
-  margin: 20px 10px;
+  margin: 15px 3px;
 }
 
+/* ABOUT */
 #about{
   background-color:#1abc9c ;
 }
 
+#about p{
+  padding-top: 20px;
+}
+
+/* CONTACT */
 #contact span{
   display: block;
 }
 
-.btn{
-  text-align: center;
-}
-
+/* FOOTER */
+/* TOP */
 footer .top{
   background-color:#3a546d ;
-  height: 250px;
+  height: 230px;
 }
 
+/* BOTTOM */
 footer .bottom{
   background-color:#2c3e50 ;
   height: 100px;
-}
-
-
-/* UTILITIES */
-.debug {
-  background-color: rgba(61, 0, 97, 0.384);
-  border: 1px solid black;
-  height: 50px;
 }
